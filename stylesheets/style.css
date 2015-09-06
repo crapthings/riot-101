@@ -1,0 +1,64 @@
+/* init */
+
+* {
+	box-sizing: border-box;
+	outline: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	background-color: #efefef;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+input[type="text"],
+input[type="submit"] {
+	width: 100%;
+	padding: 8px;
+	border: 0;
+	background-color: white;
+}
+
+input[type="submit"] {
+	background-color: green;
+	color: white;
+}
+
+/* flex */
+
+.ui-flex-row {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.ui-flex-column {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+/* common class */
+
+.ui-padded {
+	padding: 16px;
+}
+
+/* styles */
+
+.bordered-bottom {
+	border-bottom: 1px solid #efefef;
+}
+
+.text-mute {
+	color: #999;
+}
+
+.module {
+	background-color: white;
+}
